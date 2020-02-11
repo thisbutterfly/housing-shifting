@@ -14,6 +14,7 @@ const TopPanel = () => (
       <div className="column">
         <img src="https://via.placeholder.com/400x150" />
       </div>
+      <div className="column"></div>
       {iconList.map(iconDetails => (
         <>
           <div className="column">
