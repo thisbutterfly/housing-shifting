@@ -36,21 +36,21 @@ const TopPanel = () => (
 const iconList = [
   {
     icon:
-      "https://res.cloudinary.com/dqzwyjocc/image/upload/c_scale,w_50,h_50/v1581314511/agrwal-shifting/contact_pctazr.png",
+      "https://res.cloudinary.com/dkksvxoms/image/upload/v1581400547/agrwal-shifting/contact_pctazr_n7co13.png",
     title: "Phone Number",
     details: "+91-7894561***",
     link: "",
   },
   {
     icon:
-      "https://res.cloudinary.com/dqzwyjocc/image/upload/c_scale,w_50,h_50/v1581314511/agrwal-shifting/mail_sg6mou.png",
+      "https://res.cloudinary.com/dkksvxoms/image/upload/v1581400547/agrwal-shifting/mail_sg6mou_oevlcw.png",
     title: "Email",
     details: "xyz@email.com",
     link: "",
   },
   {
     icon:
-      "https://res.cloudinary.com/dqzwyjocc/image/upload/c_scale,w_50,h_50/v1581314511/agrwal-shifting/world_htj4lp.png",
+      "https://res.cloudinary.com/dkksvxoms/image/upload/v1581400547/agrwal-shifting/world_htj4lp_bi49k6.png",
     title: "Website",
     details: "mywebsite.org",
     link: "/",

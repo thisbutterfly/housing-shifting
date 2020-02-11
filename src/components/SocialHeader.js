@@ -11,25 +11,10 @@ const SocialHeader = () => (
       <div className="logo">
         <div className="logo-container">
           <div className="image">
-            <FontAwesomeIcon
-              icon={['fas', 'facebook-f']}
-              size="s"
-              style={{ color: "#fff" }}
-            />
+            <img src="https://res.cloudinary.com/dkksvxoms/image/upload/c_scale,h_25,w_30/v1581400525/agrwal-shifting/in_mibcsv.png" />
           </div>
           <div className="image">
-            <FontAwesomeIcon
-              icon={faCoffee}
-              size="s"
-              style={{ color: "#fff" }}
-            />
-          </div>
-          <div className="image">
-            <FontAwesomeIcon
-              icon={faCoffee}
-              size="s"
-              style={{ color: "#fff" }}
-            />
+          <img src="https://res.cloudinary.com/dkksvxoms/image/upload/c_scale,h_25,w_30/v1581400525/agrwal-shifting/fb_cr8b4w.png" />
           </div>
         </div>
       </div>
