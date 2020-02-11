@@ -12,7 +12,7 @@ const TopPanel = () => (
       }}
     >
       <div className="column">
-        <img src="https://via.placeholder.com/400x100" />
+        <img src="https://via.placeholder.com/400x150" />
       </div>
       {iconList.map(iconDetails => (
         <>

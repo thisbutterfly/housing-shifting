@@ -233,4 +233,36 @@ textarea {
     display: none;
   }
 }
+
+.mobile-navbar {
+  background: #0f2027;
+  /* fallback for old browsers */
+  background: #020048;
+  overflow: hidden;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 425px) {
+  .mobile-navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 426px) {
+  .mobile-navbar {
+    display: none;
+  }
+}
+
+.mobile-dropdown-container {
+  background: #020048;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

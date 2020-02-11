@@ -12,6 +12,7 @@ import Enquiry from "../components/Enquiry"
 import Services from "../components/Services"
 import Testimonial from "../components/Testimonial"
 import Contact from "../components/Contact"
+import MobileMenuBar from "../components/MobileMenuBar"
 
 const IndexPage = () => (
   <Layout>
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <SocialHeader />
     <TopPanel />
     <MenuBar />
+    <MobileMenuBar />
     <HeroCarousel />
     <About />
     <Enquiry />
