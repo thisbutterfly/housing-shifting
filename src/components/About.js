@@ -1,8 +1,8 @@
 import React from "react"
 
 const About = () => (
-  <div className="section">
-    <div className="container" id="#about">
+  <div className="section" id="#about">
+    <div className="container">
       <div className="columns">
         <div className="column about-image">
           <img src="https://via.placeholder.com/400x300" />
