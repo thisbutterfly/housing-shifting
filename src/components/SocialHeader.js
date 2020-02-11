@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCoffee } from "@fortawesome/free-solid-svg-icons"
+import { faCoffee, fabFacebookF } from "@fortawesome/free-solid-svg-icons"
 
 const SocialHeader = () => (
   <div className="wrapper">
@@ -12,7 +12,7 @@ const SocialHeader = () => (
         <div className="logo-container">
           <div className="image">
             <FontAwesomeIcon
-              icon={faCoffee}
+              icon={['fas', 'facebook-f']}
               size="s"
               style={{ color: "#fff" }}
             />

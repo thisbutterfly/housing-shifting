@@ -19,10 +19,8 @@ body {
 .logo-container {
   display: flex;
 }
-.tab-panel {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0px 0px 0px;
+.carousel * {
+  height: 50vh
 }
 .icon {
   margin-right: 10px;
@@ -58,13 +56,6 @@ body {
 }
 .legend {
   font-weight: bold;
-}
-.about-image {
-  height: 15rem;
-  padding: 30px;
-}
-.about {
-  padding: 30px;
 }
 .heading {
   font-size: 28px;
@@ -174,3 +165,13 @@ textarea {
       border-bottom: 2px solid #f5f5f5;
     }
   }
+.top-panel{
+  @media(max-width:425px){
+    display: none;
+  }
+}
+.menu-bar{
+  @media(max-width:425px){
+    display: none;
+  }
+}

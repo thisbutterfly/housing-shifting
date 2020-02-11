@@ -1,33 +1,35 @@
 import React from "react"
 
 const TopPanel = () => (
-  <div
-    className="container"
-    style={{
-      display: "flex",
-      justifyContent: "space-between",
-      marginTop: "20px",
-      marginBottom: "20px",
-    }}
-  >
-    <div className="logo">
-      <img src="https://via.placeholder.com/400x100" />
+  <div className="top-panel">
+    <div
+      className="container"
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        marginTop: "20px",
+        marginBottom: "20px",
+      }}
+    >
+      <div className="column">
+        <img src="https://via.placeholder.com/400x100" />
+      </div>
+      {iconList.map(iconDetails => (
+        <>
+          <div className="column">
+            <div className="icon">
+              <img src={iconDetails.icon} />
+            </div>
+            <div className="details">
+              <p className="info-title">{iconDetails.title}</p>
+              <a href={iconDetails.link} className="hyperlink">
+                <p className="information">{iconDetails.details}</p>
+              </a>
+            </div>
+          </div>
+        </>
+      ))}
     </div>
-    {iconList.map(iconDetails => (
-      <>
-        <div className="tab-panel">
-          <div className="icon">
-            <img src={iconDetails.icon} />
-          </div>
-          <div className="details">
-            <p className="info-title">{iconDetails.title}</p>
-            <a href={iconDetails.link} className="hyperlink">
-              <p className="information">{iconDetails.details}</p>
-            </a>
-          </div>
-        </div>
-      </>
-    ))}
   </div>
 )
 
